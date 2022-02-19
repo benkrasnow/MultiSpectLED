@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name MultiSpectLED)(type KiCad)(uri ${KIPRJMOD}/MultiSpectLED.pretty)(options "")(descr ""))
+)

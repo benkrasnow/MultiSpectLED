@@ -1,0 +1,11 @@
+(module 3mm_PTH (layer F.Cu) (tedit 61FA1C55)
+  (fp_text reference REF** (at 5 -3.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 3mm_PTH (at -4.3 -5.6) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 3.25 0) (layer F.SilkS) (width 0.15))
+  (pad 1 thru_hole circle (at 0 0) (size 5.5 5.5) (drill 3) (layers *.Cu *.Mask)
+    (zone_connect 2))
+)

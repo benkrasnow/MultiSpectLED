@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C
+D Unpolarized capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP L
+D Inductor
+K inductor choke coil reactor magnetic
+F ~
+$ENDCMP
+#
+$CMP LED_PAD
+D Light emitting diode with pad
+K LED diode pad
+F ~
+$ENDCMP
+#
+$CMP LED_PAD_ANODE_MARKED
+D Light emitting diode with pad
+K LED diode pad
+F ~
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R res resistor
+F ~
+$ENDCMP
+#
+#End Doc Library

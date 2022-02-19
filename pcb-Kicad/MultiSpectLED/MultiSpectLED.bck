@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LED_PAD
+D Light emitting diode with pad
+K LED diode pad
+F ~
+$ENDCMP
+#
+$CMP LED_PAD_ANODE_MARKED
+D Light emitting diode with pad
+K LED diode pad
+F ~
+$ENDCMP
+#
+#End Doc Library

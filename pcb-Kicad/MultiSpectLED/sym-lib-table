@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name MultiSpectLED)(type Legacy)(uri ${KIPRJMOD}/MultiSpectLED.lib)(options "")(descr ""))
+  (lib (name PJ-036AH-SMT-TR)(type Legacy)(uri ${KIPRJMOD}/PJ-036AH-SMT-TR.lib)(options "")(descr ""))
+)
