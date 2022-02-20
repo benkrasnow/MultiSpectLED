@@ -23,6 +23,8 @@ Dimming is achieved with PWM, and I used "software PWM" to get 15 separate chann
 
 The Teensy-LC also provides easy programability for external triggering, remote control via USB serial, etc
 
+The +5V power connection on the Teensy-LC between its USB micro plug and Vin pin should be cut.  There is a thin link between two exposed pads on the underside for this purpose.  This allows the Teensy to be powered only by the Vin pin, which is connected to the USB-C power rail in this design (it must be powered for programming).  If the link is not cut, and both USB connections are made with mismatched voltages (eg 4.9V vs 5.3V), bad currents may flow.
+
 
 
 Total cost is about $180, and the 280nm LED alone is $24
