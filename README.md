@@ -5,6 +5,7 @@ Array of 15 1W LEDs spanning 280nm to 940nm
 
 Notes:  The 280nm LED has a forward voltage drop of between 5V and 7.5V depending on the voltage bin.  This is higher that I expected when I designed the circuit, and it will not work if the power supply is really 5.0V.  It should have a boost converter instead of a buck converter.  However, I happened to receive an LED with a 5.1V drop, and my 5V wall adapter supplies 5.35V at 500mA, so the system works with the buck converter, just barely.  This part of the circuit should be redesigned if 280nm is needed.
 
+UPDATE:  I added 0402 resistors near each buck controller.
 The "enable" pin on the PAM2804 buck controller is very high-impedance, and will float around while the MCU is being programmed.  This causes bright flashes, and potentially can draw too much current from the supply, so pull-down resistors *MUST* be added between each PWM control line and ground.  I haven't updated the PCB yet, and fixed it in the prototype by adding resistors:
 
 ![alt text](https://github.com/benkrasnow/MultiSpectLED/blob/main/resistor_bodge.jpg?raw=true)
