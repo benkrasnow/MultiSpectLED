@@ -25,7 +25,7 @@ The Teensy-LC also provides easy programability for external triggering, remote 
 
 
 
-Total cost is about $250, and the 280nm LED alone is $24
+Total cost is about $180, and the 280nm LED alone is $24
 
 ![alt text](https://github.com/benkrasnow/MultiSpectLED/blob/main/top3D.jpg?raw=true)
 .
