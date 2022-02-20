@@ -12,7 +12,7 @@ The "enable" pin on the PAM2804 buck controller is very high-impedance, and will
 
 The heatsink has a 45mm wide rasied section, and the PCB is designed so that all exposed copper is ground within this 45mm strip. I used the PCB itself as a drill guide to drill 2.5mm holes, and then tapped them M3.  I used M3x4 screws to hold the PCB to the heatsink.
 
-Originally, I planned to use Luxeon IR LEDs from Lumileds for the 850 and 940nm.  The thermal pad on these is tied to the anode, so it will not work with the current PCB design.  
+Originally, I planned to use Luxeon IR LEDs from Lumileds for the 850 and 940nm.  The thermal pad on these is tied to the anode, so it will not work with the current PCB design. I replaced them with alternate parts with very similar footprint, and have updated the BOM and layout.  
 
 Heatsink and fan: https://www.amazon.com/dp/B00006B8EX
 The fan runs nice and quiet on 5V, and provides more than enough airflow
