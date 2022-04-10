@@ -37,3 +37,8 @@ Total cost is about $180, and the 280nm LED alone is $24
 
 Thermal performance looks very good.  At 16C ambient, the hottest part is the inductor at 23C.
 ![alt text](https://github.com/benkrasnow/MultiSpectLED/blob/main/thermal.jpg?raw=true)
+
+Device was used to create Silver nanoprisms grown into structural colors by high power LEDs
+
+A video can be found here - https://www.youtube.com/watch?v=v8pko9IlFW4
+
